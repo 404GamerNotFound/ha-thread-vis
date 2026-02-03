@@ -1,0 +1,7 @@
+{
+  "name": "Thread Network Visualization",
+  "domain": "ha_thread_vis",
+  "content_in_root": false,
+  "render_readme": true,
+  "iot_class": "local_push"
+}

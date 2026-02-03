@@ -1,0 +1,16 @@
+set_network:
+  name: Set network graph
+  description: Replace the Thread network graph used by the visualization.
+  fields:
+    nodes:
+      name: Nodes
+      description: List of nodes with id, label, and group.
+      required: true
+      selector:
+        object:
+    edges:
+      name: Edges
+      description: List of edges with source and target.
+      required: true
+      selector:
+        object:
